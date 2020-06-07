@@ -38,7 +38,7 @@ AddEventHandler('chatMessage', function(source, name, msg)
 
 		if command == "/alert" then
 		CancelEvent()
-		TriggerClientEvent("alert:Send", source, string.sub(msg, 8), Config.FRL.Departments)
+		TriggerClientEvent("alert:Send", source, string.sub(msg, 8), Config.FRL.Commands)
 		end
 	end
 end)

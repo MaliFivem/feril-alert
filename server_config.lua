@@ -1,6 +1,6 @@
 Config = {}
 Config.FRL = {}
-Config.FRL.Departments = {
+Config.FRL.Commands = {
     feril= {
     
         name = "feril"
